@@ -80,10 +80,32 @@ function Home() {
         <div className="div-four-mission">
           <div>
             <h2>Our mission.</h2>
-            <p>It all started in Vermont in 1997. Our passion for protecting the environment led us to our mission: to use the power of consumer choice to change the way power is made. Today, as the longest-serving renewable energy retailer, we remain committed to sustainability every step of the way. By offering only products with an environmental benefit and operating with a zero-carbon footprint, we’re living our promise to the planet, inside and out.</p>
+            <p>
+              It all started in Vermont in 1997. Our passion for protecting the
+              environment led us to our mission: to use the power of consumer
+              choice to change the way power is made. Today, as the
+              longest-serving renewable energy retailer, we remain committed to
+              sustainability every step of the way. By offering only products
+              with an environmental benefit and operating with a zero-carbon
+              footprint, we're living our promise to the planet, inside and out.
+            </p>
           </div>
         </div>
-        <div className="div-five-facts">Numbers / Facts</div>
+        <div className="div-five-facts">
+          <div>
+            <p>Since 1997, our customers avoided</p>
+            <h1>108,785,235,112</h1>
+            <p>pounds of CO2.</p>
+          </div>
+          <div>
+            <p>That's like planting</p>
+            <h1>11,917,467</h1>
+            <p>new trees.</p>
+          </div>
+          <div>
+            <img src="" alt="" />
+          </div>
+        </div>
         <div className="div-six-customer-service">Customer Service</div>
       </body>
       <footer>Footer</footer>
