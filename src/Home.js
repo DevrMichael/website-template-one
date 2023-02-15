@@ -113,19 +113,19 @@ function Home() {
           </div>
           <div>
             <div>
-              <img src="" alt="" />
+              <div className="customer-service-one"></div>
               <p>How to read & pay my bill</p>
             </div>
             <div>
-              <img src="" alt="" />
+            <div className="customer-service-two"></div>
               <p>Contact my utility</p>
             </div>
             <div>
-              <img src="" alt="" />
+            <div className="customer-service-three"></div>
               <p>FAQ</p>
             </div>
             <div>
-              <img src="" alt="" />
+            <div className="customer-service-four"></div>
               <p>Refer a friend</p>
             </div>
           </div>

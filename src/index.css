@@ -13,7 +13,7 @@ code {
 }
 
 header {
-  position:sticky;
+  position: sticky;
   top: 0;
   background-color: white;
   display: flex;
@@ -39,7 +39,7 @@ header > div > button {
 }
 
 .div-one-hero {
-  background: url('../public/website-one-header.png');
+  background: url("../public/website-one-header.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: pink;
@@ -143,7 +143,7 @@ header > div > button {
 }
 
 .feature-one {
-  background: url('../public/website-one-feature-one.png');
+  background: url("../public/website-one-feature-one.png");
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
@@ -153,7 +153,7 @@ header > div > button {
 }
 
 .feature-two {
-  background: url('../public/website-one-feature-two.png');
+  background: url("../public/website-one-feature-two.png");
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
@@ -163,7 +163,7 @@ header > div > button {
 }
 
 .feature-three {
-  background: url('../public/website-one-feature-three.png');
+  background: url("../public/website-one-feature-three.png");
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
@@ -203,12 +203,12 @@ header > div > button {
   display: flex;
 }
 
-.div-five-facts>div {
+.div-five-facts > div {
   margin: auto;
   color: white;
 }
 
-.div-five-facts h1{
+.div-five-facts h1 {
   font-size: 2.5em;
 }
 
@@ -225,22 +225,68 @@ header > div > button {
   font-weight: 300;
 }
 
-.div-six-customer-service>div:nth-child(2) {
+.div-six-customer-service > div:nth-child(2) {
   display: flex;
-width: 100%;
+  width: 80%;
+  margin-bottom: 50px;
 }
 
-.div-six-customer-service>div:nth-child(2)>div {
+.div-six-customer-service > div:nth-child(2) > div {
   width: 30%;
-  margin: 20px;
+  margin: 10px;
   text-align: center;
   line-height: 30px;
 }
 
-.div-six-customer-service a {
+.div-six-customer-service > div:nth-child(3) {
+  width: 50%;
+  margin: 10px;
+}
+
+.div-six-customer-service> div:nth-child(3) > a {
   text-decoration: none;
-color: #f47825;
-font-size: 1.2em;
+  color: #f47825;
+  font-size: 1.2em;
+}
+
+.customer-service-one {
+  background: url("../public/customer-service-one.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20vh;
+  width: 100%;
+  margin-bottom: -30px;
+}
+
+.customer-service-two {
+  background: url("../public/customer-service-two.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20vh;
+  width: 100%;
+  margin-bottom: -30px;
+}
+
+.customer-service-three {
+  background: url("../public/customer-service-three.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20vh;
+  width: 100%;
+  margin-bottom: -30px;
+}
+
+.customer-service-four {
+  background: url("../public/customer-service-four.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20vh;
+  width: 100%;
+  margin-bottom: -30px;
 }
 
 footer {
