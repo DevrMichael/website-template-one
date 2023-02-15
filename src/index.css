@@ -13,6 +13,9 @@ code {
 }
 
 header {
+  position:sticky;
+  top: 0;
+  background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -36,7 +39,11 @@ header > div > button {
 }
 
 .div-one-hero {
+  background: url('../public/website-one-header.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
   background-color: pink;
+  background-position: bottom;
   height: 60vh;
   width: 100%;
 }
@@ -121,7 +128,7 @@ header > div > button {
 }
 
 .div-three-features p {
-  width: 80%;
+  width: 95%;
   margin: auto;
   padding-bottom: 20px;
   font-size: 0.8em;
@@ -133,6 +140,36 @@ header > div > button {
   background-color: orange;
   border: none;
   color: white;
+}
+
+.feature-one {
+  background: url('../public/website-one-feature-one.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30vh;
+  width: 100%;
+  margin-bottom: -30px;
+}
+
+.feature-two {
+  background: url('../public/website-one-feature-two.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30vh;
+  width: 100%;
+  margin-bottom: -30px;
+}
+
+.feature-three {
+  background: url('../public/website-one-feature-three.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30vh;
+  width: 100%;
+  margin-bottom: -30px;
 }
 
 .div-four-mission {
@@ -161,7 +198,7 @@ header > div > button {
 }
 
 .div-five-facts {
-  background-color: #dff2f7;
+  background: url(../public/website-one-facts.png);
   height: 30vh;
   display: flex;
 }

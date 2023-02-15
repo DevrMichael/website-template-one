@@ -48,7 +48,7 @@ function Home() {
         <div className="div-three-features">
           <div>
             <div>
-              <img src="" alt="" />
+              <div className="feature-one"></div>
               <h2>Go local. Go Solar.</h2>
               <p>
                 Tap into 100% solar electricity from a Green Mountain Energy
@@ -57,7 +57,7 @@ function Home() {
               <button>Sign Up</button>
             </div>
             <div>
-              <img src="" alt="" />
+            <div className="feature-two"></div>
               <h2>Give back and support green.</h2>
               <p>
                 Sun Club makes communities greener by funding local
@@ -67,7 +67,7 @@ function Home() {
               <button>Learn more</button>
             </div>
             <div>
-              <img src="" alt="" />
+            <div className="feature-three"></div>
               <h2>Clean and free all night.</h2>
               <p>
                 Get free 100% wind energy from 8 p.m. to 6 a.m. with the
@@ -112,28 +112,28 @@ function Home() {
             <p>What can we help you with?</p>
           </div>
           <div>
-              <div>
-                <img src="" alt="" />
-                <p>How to read & pay my bill</p>
-              </div>
-              <div>
-                <img src="" alt="" />
-                <p>Contact my utility</p>
-              </div>
-              <div>
-                <img src="" alt="" />
-                <p>FAQ</p>
-              </div>
-              <div>
-                <img src="" alt="" />
-                <p>Refer a friend</p>
-              </div>
+            <div>
+              <img src="" alt="" />
+              <p>How to read & pay my bill</p>
             </div>
             <div>
-              <p>Got questions? We've got answers.</p>
-              <p>Talk with someone today about clean, renewable energy plans.</p>
-              <a href="#">Go to Customer Service ></a>
+              <img src="" alt="" />
+              <p>Contact my utility</p>
             </div>
+            <div>
+              <img src="" alt="" />
+              <p>FAQ</p>
+            </div>
+            <div>
+              <img src="" alt="" />
+              <p>Refer a friend</p>
+            </div>
+          </div>
+          <div>
+            <p>Got questions? We've got answers.</p>
+            <p>Talk with someone today about clean, renewable energy plans.</p>
+            <a href="www.google.com">Go to Customer Service</a>
+          </div>
         </div>
       </body>
       <footer>Footer</footer>
