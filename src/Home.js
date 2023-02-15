@@ -106,7 +106,35 @@ function Home() {
             <img src="" alt="" />
           </div>
         </div>
-        <div className="div-six-customer-service">Customer Service</div>
+        <div className="div-six-customer-service">
+          <div>
+            <h1>Customer Service</h1>
+            <p>What can we help you with?</p>
+          </div>
+          <div>
+              <div>
+                <img src="" alt="" />
+                <p>How to read & pay my bill</p>
+              </div>
+              <div>
+                <img src="" alt="" />
+                <p>Contact my utility</p>
+              </div>
+              <div>
+                <img src="" alt="" />
+                <p>FAQ</p>
+              </div>
+              <div>
+                <img src="" alt="" />
+                <p>Refer a friend</p>
+              </div>
+            </div>
+            <div>
+              <p>Got questions? We've got answers.</p>
+              <p>Talk with someone today about clean, renewable energy plans.</p>
+              <a href="#">Go to Customer Service ></a>
+            </div>
+        </div>
       </body>
       <footer>Footer</footer>
     </>

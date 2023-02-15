@@ -71,7 +71,7 @@ header > div > button {
 }
 
 .div-two-locations {
-  background-color: orange;
+  background-color: #00935e;
   height: 15vh;
   width: 100%;
   display: flex;
@@ -95,7 +95,7 @@ header > div > button {
 }
 
 .div-three-features {
-  background-color: purple;
+  background-color: #dff2f7;
   height: 80vh;
   display: flex;
 }
@@ -136,7 +136,7 @@ header > div > button {
 }
 
 .div-four-mission {
-  background-color: aquamarine;
+  background-color: #29a674;
   height: 50vh;
   width: 100%;
 }
@@ -161,7 +161,7 @@ header > div > button {
 }
 
 .div-five-facts {
-  background-color: lavender;
+  background-color: #dff2f7;
   height: 30vh;
   display: flex;
 }
@@ -176,8 +176,34 @@ header > div > button {
 }
 
 .div-six-customer-service {
-  background-color: thistle;
-  height: 60vh;
+  background-color: #fff;
+  height: 70vh;
+  width: 60%;
+  padding: 60px 0 0 60px;
+  text-align: left;
+  font-weight: 300;
+}
+
+.div-six-customer-service h1 {
+  font-weight: 300;
+}
+
+.div-six-customer-service>div:nth-child(2) {
+  display: flex;
+width: 100%;
+}
+
+.div-six-customer-service>div:nth-child(2)>div {
+  width: 30%;
+  margin: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.div-six-customer-service a {
+  text-decoration: none;
+color: #f47825;
+font-size: 1.2em;
 }
 
 footer {
