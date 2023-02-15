@@ -57,7 +57,7 @@ function Home() {
               <button>Sign Up</button>
             </div>
             <div>
-            <div className="feature-two"></div>
+              <div className="feature-two"></div>
               <h2>Give back and support green.</h2>
               <p>
                 Sun Club makes communities greener by funding local
@@ -67,7 +67,7 @@ function Home() {
               <button>Learn more</button>
             </div>
             <div>
-            <div className="feature-three"></div>
+              <div className="feature-three"></div>
               <h2>Clean and free all night.</h2>
               <p>
                 Get free 100% wind energy from 8 p.m. to 6 a.m. with the
@@ -117,15 +117,15 @@ function Home() {
               <p>How to read & pay my bill</p>
             </div>
             <div>
-            <div className="customer-service-two"></div>
+              <div className="customer-service-two"></div>
               <p>Contact my utility</p>
             </div>
             <div>
-            <div className="customer-service-three"></div>
+              <div className="customer-service-three"></div>
               <p>FAQ</p>
             </div>
             <div>
-            <div className="customer-service-four"></div>
+              <div className="customer-service-four"></div>
               <p>Refer a friend</p>
             </div>
           </div>
@@ -136,7 +136,28 @@ function Home() {
           </div>
         </div>
       </body>
-      <footer>Footer</footer>
+      <hr />
+      <footer>
+        <div>
+          <div>
+            <h3>Customer Service</h3>
+            <p>FAQs</p>
+            <p>Contact Us</p>
+            <p>Blog</p>
+          </div>
+          <div className="footer-socials__container">
+            <h3>Follow us on the web</h3>
+            <div className="footer-socials">
+              <p>Facebook</p>
+              <p>Twitter</p>
+              <p>Youtube</p>
+              <p>Instagram</p>
+              <p>LinkedIn</p>
+              <p>TikTok</p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }
